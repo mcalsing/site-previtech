@@ -8,36 +8,53 @@ export default function Home() {
   }
 
   return (
-    <main className="flex flex-col items-center">
-      <h1 className="text-3xl">Modelo Preditivo de Evasao de Clientes</h1>
+    <main className="flex flex-col items-center bg-blue-950 text-sky-400">
+      <h1 className="text-3xl">Modelo Preditivo de Evasão de Clientes</h1>
       <div className="grid justify-items-end p-10 space-y-9">
         <div className="border-4 border-sky-700 w-full p-5 rounded-xl">
           <h1 className="flex justify-center text-2xl">Dyogo</h1>
-          <div className="flex justify-between border-4 border-sky-300 p-5">
+          <div className="flex justify-between p-5">
             <p className="word-break: break-all text-2xl">aasdsdfsasdfasdfsdfdfdsafsdfasdfasdfasdfasdfasdfasdfasdfasdffsdfsdfsdfsdfsdfssdfsdfsdfsdfsdfsdfsdfsdfsdffsdfsdfdfsdffsfsdfsdfsdsfsdfsdflkdfjalkdjflk</p>
-            <button className="w-auto" onClick={() => testee()}>
-              <Image src="/Dyogo.jpeg" alt="dyogo" width={100} height={24} className="hover:animate-bounce"></Image>
-            </button>
+            <Image src="/Dyogo.jpeg" alt="dyogo" width={100} height={24} className="hover:animate-bounce"></Image>
+          </div>
+        </div>
+        <div className="border-4 border-sky-700 w-full p-5 rounded-xl">
+          <h1 className="flex justify-center text-2xl">João</h1>
+          <div className="flex justify-between p-5">
+            <p className="word-break: break-all text-2xl">aasdsdfsasdfasdfsdfdfdsafsdfasdfasdfasdfasdfasdfasdfasdfasdffsdfsdfsdfsdfsdfssdfsdfsdfsdfsdfsdfsdfsdfsdffsdfsdfdfsdffsfsdfsdfsdsfsdfsdflkdfjalkdjflk</p>
+            <Image src="/Joao.jfif" alt="dyogo" width={100} height={24} className="hover:animate-spin"></Image>
+          </div>
+        </div>
+        <div className="border-4 border-sky-700 w-full p-5 rounded-xl">
+          <h1 className="flex justify-center text-2xl">León</h1>
+          <div className="flex justify-between p-5">
+            <p className="word-break: break-all text-2xl">aasdsdfsasdfasdfsdfdfdsafsdfasdfasdfasdfasdfasdfasdfasdfasdffsdfsdfsdfsdfsdfssdfsdfsdfsdfsdfsdfsdfsdfsdffsdfsdfdfsdffsfsdfsdfsdsfsdfsdflkdfjalkdjflk</p>
+            <Image src="/Leon.jpeg" alt="dyogo" width={100} height={24} className="hover:animate-pulse"></Image>
           </div>
         </div>
 
+        <div className="border-4 border-sky-700 w-full p-5 rounded-xl">
+          <h1 className="flex justify-center text-2xl">Marcelo</h1>
+          <div className="flex justify-between p-5">
+            <p className="word-break: break-all text-2xl">aasdsdfsasdfasdfsdfdfdsafsdfasdfasdfasdfasdfasdfasdfasdfasdffsdfsdfsdfsdfsdfssdfsdfsdfsdfsdfsdfsdfsdfsdffsdfsdfdfsdffsfsdfsdfsdsfsdfsdflkdfjalkdjflk</p>
+            <Image src="/Marcelo.png" alt="dyogo" width={100} height={24} className="hover:animate-pulse"></Image>
+          </div>
+        </div>
 
+        <div className="border-4 border-sky-700 w-full p-5 rounded-xl">
+          <h1 className="flex justify-center text-2xl">Sirlon</h1>
+          <div className="flex justify-between p-5">
+            <p className="word-break: break-all text-2xl">aasdsdfsasdfasdfsdfdfdsafsdfasdfasdfasdfasdfasdfasdfasdfasdffsdfsdfsdfsdfsdfssdfsdfsdfsdfsdfsdfsdfsdfsdffsdfsdfdfsdffsfsdfsdfsdsfsdfsdflkdfjalkdjflk</p>
+            <Image src="/Sirlon.jpeg" alt="dyogo" width={100} height={24} className="hover:animate-spin"></Image>
+          </div>
+        </div>
 
-
-        <div className="border-4 border-sky-700 w-72 h-72">
-          <Image src="/Joao.jfif" alt="dyogo" width={100} height={24}></Image>
-        </div>
-        <div className="border-4 border-sky-700 w-72 h-72">
-          <Image src="/Leon.jpeg" alt="dyogo" width={100} height={24}></Image>
-        </div>
-        <div className="border-4 border-sky-700 w-72 h-72">
-          <Image src="/Marcelo.png" alt="dyogo" width={100} height={24}></Image>
-        </div>
-        <div className="border-4 border-sky-700 w-72 h-72">
-          <Image src="/Sirlon.jpeg" alt="dyogo" width={100} height={24}></Image>
-        </div>
-        <div className="border-4 border-sky-700 w-72 h-72">
-          <Image src="/Yean.jpeg" alt="dyogo" width={100} height={24}></Image>
+        <div className="border-4 border-sky-700 w-full p-5 rounded-xl">
+          <h1 className="flex justify-center text-2xl">Yean</h1>
+          <div className="flex justify-between p-5">
+            <p className="word-break: break-all text-2xl">aasdsdfsasdfasdfsdfdfdsafsdfasdfasdfasdfasdfasdfasdfasdfasdffsdfsdfsdfsdfsdfssdfsdfsdfsdfsdfsdfsdfsdfsdffsdfsdfdfsdffsfsdfsdfsdsfsdfsdflkdfjalkdjflk</p>
+            <Image src="/Yean.jpeg" alt="dyogo" width={100} height={24} className="hover:animate-bounce"></Image>
+          </div>
         </div>
       </div>
     </main>
