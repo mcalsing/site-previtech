@@ -2,18 +2,15 @@
 import Image from "next/image";
 import Link from 'next/link'
 
-export default function Home() {
+export default function About() {
   return (
-    <main>
+    <main className="">
       <ul>
         <li>
           <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/about">Sobre o projeto</Link>
-        </li>
-        <li>
-          <Link href="/profiles">Sobre nós</Link>
+          Escrever sobre o modelo preditivo
         </li>
       </ul>
     </main>
