@@ -6,8 +6,6 @@ export default function Profiles() {
   return (
     <main className="flex flex-col items-center bg-blue-950 text-sky-400">
       <div className="flex">
-        <Link href="/">Home</Link>
-        <Image src="/logo3.png" alt="logo" width={300} height={24}></Image>
         <h1 className="text-3xl pt-6">Modelo Preditivo de Evasão de Clientes</h1>
       </div>
       <div className="grid justify-items-end p-10 space-y-9">
@@ -28,7 +26,7 @@ export default function Profiles() {
           <h1 className="flex justify-center text-2xl">João</h1>
           <div className="flex p-5">
             <p className="word-break: break-all text-xl">aasdsdfsasdfasdfsdfdfdsafsdfasdfasdfasdfasdfasdfasdfasdfasdffsdfsdfsdfsdfsdfssdfsdfsdfsdfsdfsdfsdfsdfsdffsdfsdfdfsdffsfsdfsdfsdsfsdfsdflkdfjalkdjflk</p>
-            <Image src="/Joao.jfif" alt="joao" width={100} height={24} className="hover:animate-spin"></Image>
+            <Image src="/Joao.jfif" alt="joao" width={100} height={24} className="rounded-2xl"></Image>
           </div>
           <div className="flex flex-row-reverse space-x-6 space-x-reverse pr-7">
             <a href="//github.com/Joao-TeKa"><Image src="/github2.png" alt="dyogo" width={30} height={24}></Image></a>
@@ -40,7 +38,7 @@ export default function Profiles() {
           <h1 className="flex justify-center text-2xl">León</h1>
           <div className="flex p-5">
             <p className="word-break: break-all text-xl">aasdsdfsasdfasdfsdfdfdsafsdfasdfasdfasdfasdfasdfasdfasdfasdffsdfsdfsdfsdfsdfssdfsdfsdfsdfsdfsdfsdfsdfsdffsdfsdfdfsdffsfsdfsdfsdsfsdfsdflkdfjalkdjflk</p>
-            <Image src="/Leon.jpeg" alt="leon" width={100} height={24} className="hover:animate-pulse"></Image>
+            <Image src="/leon2.jpeg" alt="leon" width={100} height={24} className="rounded-2xl"></Image>
           </div>
           <div className="flex flex-row-reverse space-x-6 space-x-reverse pr-7">
             <a href="//github.com/lnmaximos"><Image src="/github2.png" alt="dyogo" width={30} height={24}></Image></a>
