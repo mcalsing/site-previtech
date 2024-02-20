@@ -22,8 +22,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <header>
-          <nav className="flex items-center justify-between flex-wrap bg-sky-500 p-2">
-            <div className="flex items-center flex-shrink-0 text-white mr-6">
+          <nav className="flex items-center justify-between flex-wrap bg-sky-400 p-2">
+            <div className="flex items-center text-white mr-6">
               <Image src="/logo3.png" alt="logo" width={200} height={24}></Image>
             </div>
             <div className="w-full block flex-grow md:flex md:items-center md:w-auto">

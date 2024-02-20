@@ -8,8 +8,8 @@ import { faCircleInfo } from '@fortawesome/free-solid-svg-icons';
 
 export default function About() {
   return (
-    <main>
-      Sobre o projeto
+    <main className="flex flex-col items-center bg-blue-950 text-sky-400">
+      <h1 className="text-3xl pt-6">Modelo Preditivo de Evasão de Clientes</h1>
     </main>
 /*     <div className="fixed flex flex-col top-10 left-2 w-14 hover:w-64 md:w-64 h-full">
       <div className="flex flex-col justify-between">
