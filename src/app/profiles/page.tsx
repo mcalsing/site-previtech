@@ -26,7 +26,7 @@ export default function Profiles() {
           <h1 className="flex justify-center text-2xl">João</h1>
           <div className="flex p-5">
             <p className="word-break: break-all text-xl">aasdsdfsasdfasdfsdfdfdsafsdfasdfasdfasdfasdfasdfasdfasdfasdffsdfsdfsdfsdfsdfssdfsdfsdfsdfsdfsdfsdfsdfsdffsdfsdfdfsdffsfsdfsdfsdsfsdfsdflkdfjalkdjflk</p>
-            <Image src="/Joao.jfif" alt="joao" width={100} height={24} className="rounded-2xl"></Image>
+            <Image src="/joao2.png" alt="joao" width={100} height={24} className="rounded-2xl"></Image>
           </div>
           <div className="flex flex-row-reverse space-x-6 space-x-reverse pr-7">
             <a href="//github.com/Joao-TeKa"><Image src="/github2.png" alt="dyogo" width={30} height={24}></Image></a>
@@ -74,7 +74,7 @@ export default function Profiles() {
           <h1 className="flex justify-center text-2xl">Yean</h1>
           <div className="flex p-5">
             <p className="word-break: break-all text-xl">aasdsdfsasdfasdfsdfdfdsafsdfasdfasdfasdfasdfasdfasdfasdfasdffsdfsdfsdfsdfsdfssdfsdfsdfsdfsdfsdfsdfsdfsdffsdfsdfdfsdffsfsdfsdfsdsfsdfsdflkdfjalkdjflk</p>
-            <Image src="/Yean.jpeg" alt="yean" width={100} height={24} className="hover:animate-bounce"></Image>
+            <Image src="/yean2.jpeg" alt="yean" width={100} height={24} className=""></Image>
           </div>
           <div className="flex flex-row-reverse space-x-6 space-x-reverse pr-7">
             <a href="//github.com/yeanjy"><Image src="/github2.png" alt="dyogo" width={30} height={24}></Image></a>
