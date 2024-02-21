@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Profiles() {
   return (
-    <main className="flex flex-col items-center bg-gradient-to-b from-sky-400 to-sky-200 text-sky-800 h-full">
+    <main className="flex flex-col items-center bg-gradient-to-b from-sky-950 from-20% to-sky-900 text-slate-300 h-full">
       <div className="flex">
         <h1 className="text-3xl pt-6">Integrantes da Equipe</h1>
       </div>
