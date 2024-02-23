@@ -2,12 +2,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import { integrantes } from "@/utils/mocks";
+import "highlight.js/styles/github.css";
 
 export default function Home() {
   return (
     <main className="w-full h-full flex flex-col items-center text-slate-300 bg-cyan-950">
-      <div className="flex p-5 w-full h-[600px] bg-cyan-900 xl:px-44 justify-between text-slate-600 max-md:flex-col">
-        <div className="flex flex-col w-1/2 h-full justify-center items-start text-zinc-100">
+      <div className="flex p-5 w-full h-[600px] bg-cyan-900 xl:px-44 justify-between max-md:flex-col">
+        <div className="flex flex-col w-1/2 h-full justify-center items-start">
           <span className="font-extrabold text-4xl md:text-6xl">PreviTech</span>
           <span className="text-xl">Utilizamos tecnologias de Machine Learning para desenvolver</span>
           <span className="text-xl">um modelo preditivo capaz prever a evasão de clientes.</span>

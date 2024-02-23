@@ -20,16 +20,15 @@ export default function RootLayout({
       <body className={inter.className}>
         <header>
           <nav className="flex justify-evenly items-center bg-cyan-950 p-2">
-            
             <div className="">
               <Image src="/logo3.png" alt="logo" width={250} height={24}></Image>
             </div>
             <div className="">
               <div className="">
-                <a href="/" className="sm:text-lg md:text-xl lg:text-2xl xl:text-1xl text-white hover:text-sky-700 mr-4 text-xl">
+                <a href="/" className="sm:text-lg md:text-xl lg:text-2xl xl:text-1xl text-slate-300 hover:text-sky-700 mr-4 text-xl">
                   Home
                 </a>
-                <a href="/about" className="sm:text-lg md:text-xl lg:text-2xl xl:text-1xl text-white hover:text-sky-700 mr-4 text-xl">
+                <a href="/about" className="sm:text-lg md:text-xl lg:text-2xl xl:text-1xl text-slate-300 hover:text-sky-700 mr-4 text-xl">
                   Projeto
                 </a>
               </div>
