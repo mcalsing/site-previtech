@@ -28,7 +28,7 @@ export const integrantes = [
   },
   {
     nome: "João Ropke",
-    imagem: "/joao3.png",
+    imagem: "/joao4.png",
     funcao: "Java | JavaScript | Python",
     sobre:
       "Recentemente conclui minha formação técnica em Ciência de Dados, e através de projetos em equipes e individuais, adquiri experiência nas linguagens Java, JavaScript, Python, HTML e CSS, além de Trabalhar com MySql. Atualmente estou em processo de evolução, para futuramente me tornar um Desenvolvedor Full Stack.",
@@ -37,7 +37,7 @@ export const integrantes = [
   },
   {
     nome: "Sirlon Brehm",
-    imagem: "/sirlon3.png",
+    imagem: "/sirlon5.png",
     funcao: "HTML | CSS | JavaScript | Java",
     sobre:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -46,7 +46,7 @@ export const integrantes = [
   },
   {
     nome: "Yean Jy Chen",
-    imagem: "/yean3.png",
+    imagem: "/yean4.png",
     funcao: "HTML | CSS | JavaScript | Java",
     sobre:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
