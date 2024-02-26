@@ -23,9 +23,9 @@ export default function Home() {
       <div className="w-full flex justify-center items-center px-44 mt-24">
         <div className="flex justify-center flex-wrap gap-10">
           {integrantes.map((card, index) => (
-            <div key={index} className="flex flex-col border-2 border-sky-600 rounded-lg pt-16 px-8 pb-8 relative w-[360px] bg-slate-100 text-zinc-700 mb-14 hover:bg-slate-200">
-              <div className="rounded-full w-24 h-24 absolute object-cover -top-12 border-4 border-sky-950">
-                <Image src={card.imagem} alt="logolinkedin" layout="fill" className="rounded-full"></Image>
+            <div key={index} className="flex flex-col border-2 border-sky-700 rounded-lg pt-16 px-8 pb-8 relative w-[360px] bg-slate-100 text-zinc-700 mb-14 hover:bg-slate-200">
+              <div className="rounded-full w-24 h-24 absolute -top-12 border-4 border-sky-950">
+                <Image src={card.imagem} alt="logolinkedin" layout="fill" className="rounded-full object-cover"></Image>
               </div>
               <div className="flex flex-col mb-8">
                 <span className="text-2xl font-bold">{card.nome}</span>
