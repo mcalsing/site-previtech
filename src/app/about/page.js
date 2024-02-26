@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 
-
 export default function About() {
   return (
     <main className="lg:pl-28 lg:pr-28 pt-12 2xl:pl-64 2xl:pr-64 md:text-xl text-sm text-slate-300 flex flex-col items-center">
