@@ -13,7 +13,7 @@ export const integrantes = [
     imagem: "/marcelo3.png",
     funcao: "React | Node | JavaScript | Python | Java",
     sobre:
-      "Concluí um curso de Desenvolvimento Full Stack com duração de um ano, totalizando aproximadamente 1500 horas de aula. Durante minha formação, adquiri conhecimentos em JavaScript, React, Node e Python, e mais recentemente, através do programa Entra21, me aprofundei na linguagem Java.",
+      "Possuo curso de Desenvolvimento Full-Stack com duração de um ano, totalizando aproximadamente 1500 horas de aula. Durante minha formação, adquiri conhecimentos em JavaScript, React, Node e Python, e mais recentemente, através do programa Entra21, me aprofundei na linguagem Java.",
     github: "//github.com/mcalsing",
     linkedin: "//linkedin.com/in/marcelocalsing",
   },
@@ -31,7 +31,7 @@ export const integrantes = [
     imagem: "/joao4.png",
     funcao: "Java | JavaScript | Python",
     sobre:
-      "Recentemente conclui minha formação técnica em Ciência de Dados, e através de projetos em equipes e individuais, adquiri experiência nas linguagens Java, JavaScript, Python, HTML e CSS, além de Trabalhar com MySql. Atualmente estou em processo de evolução, para futuramente me tornar um Desenvolvedor Full Stack.",
+      "Recentemente concluí minha formação técnica em Ciência de Dados, e através de projetos em equipes e individuais, adquiri experiência nas linguagens Java, JavaScript, Python, HTML e CSS, além de Trabalhar com MySql. Atualmente estou em processo de evolução, para futuramente me tornar um Desenvolvedor Full-Stack.",
     github: "//github.com/Joao-TeKa",
     linkedin: "//linkedin.com/in/joãoguilhermeropke",
   },
