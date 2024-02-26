@@ -11,9 +11,9 @@ export const integrantes = [
   {
     nome: "Marcelo Calsing",
     imagem: "/marcelo3.png",
-    funcao: "React | Node.js | JavaScript | Python | Java",
+    funcao: "React | Node | JavaScript | Python | Java",
     sobre:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "Concluí um curso de Desenvolvimento Full Stack com duração de um ano, totalizando aproximadamente 1500 horas de aula. Durante minha formação, adquiri conhecimentos em JavaScript, React, Node e Python, e mais recentemente, através do programa Entra21, me aprofundei na linguagem Java.",
     github: "//github.com/mcalsing",
     linkedin: "//linkedin.com/in/marcelocalsing",
   },
@@ -31,7 +31,7 @@ export const integrantes = [
     imagem: "/joao3.png",
     funcao: "Java | JavaScript | Python",
     sobre:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "Recentemente conclui minha formação técnica em Ciência de Dados, e através de projetos em equipes e individuais, adquiri experiência nas linguagens Java, JavaScript, Python, HTML e CSS, além de Trabalhar com MySql. Atualmente estou em processo de evolução, para futuramente me tornar um Desenvolvedor Full Stack.",
     github: "//github.com/Joao-TeKa",
     linkedin: "//linkedin.com/in/joãoguilhermeropke",
   },

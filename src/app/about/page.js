@@ -1,96 +1,62 @@
 "use client";
-import React from 'react';
-import hljs from 'highlight.js/lib/core';
-import python from 'highlight.js/lib/languages/python';
-import 'highlight.js/styles/atom-one-dark.css';
-import { useState } from 'react';
 
-hljs.registerLanguage('python', python);
-
-const CodeBlock = ({ language, children }) => {
-  // Highlight the code using the provided language
-  const highlightedCode = hljs.highlight(children, { language }).value;
-
-  // Render the highlighted code within a pre tag
-  return (
-    <pre dangerouslySetInnerHTML={{ __html: highlightedCode }} />
-  );
-};
 
 export default function About() {
-  const [textToCopy, setTextToCopy] = useState("Texto para copiar");
-  const [showCopiedText1, setShowCopiedText1] = useState(false);
-  const [showCopiedText2, setShowCopiedText2] = useState(false);
-  const [showCopiedText3, setShowCopiedText3] = useState(false);
-  const [showCopiedText4, setShowCopiedText4] = useState(false);
-
-  const handleCopy = (texto, board) => {
-    if (board === "board1") setShowCopiedText1(true);
-    else setShowCopiedText2(true);
-    
-    setTimeout(() => {
-      setShowCopiedText1(false);
-      setShowCopiedText2(false);
-    }, 400);
-
-    setTextToCopy(texto);
-    navigator.clipboard.writeText(texto);
-  };
-
-  const code = `
-  from sklearn.ensemble import RandomForestClassifier
-
-  modelo_rf = RandomForestClassifier(max_depth = 5, random_state = 5)
-  modelo_rf.fit(x_treino, y_treino)
-  
-  print(f'Acurácia de treino: {modelo_rf.score(x_treino, y_treino)}')
-  print(f'Acurácia de validação: {modelo_rf.score(x_val, y_val)}')`;
-
-  const codetesteee = `  
-  print(f'Acurácia de treino: {modelo_rf.score(x_treino, y_treino)}')
-  print(f'Acurácia de validação: {modelo_rf.score(x_val, y_val)}')`;
-
   return (
     <main className="lg:pl-28 lg:pr-28 pt-12 2xl:pl-64 2xl:pr-64 md:text-xl text-sm text-slate-300 flex flex-col items-center">
-      <h1 className="text-5xl pb-10">Construindo o modelo</h1>
-      <div className="flex flex-col bg-sky-950">
-        <div className="indent-5 flex flex-col">
-          <p className="break-all">So I started to walk into the water. I wont lie to you boys, I was
-          terrified. But I pressed on, and as I made my way past the breakers
-          a strange fffffffff                ffffffcalm came over me. I do           
-          nt know if it was divine intervention
-          or the kinship of all living things but I tell you Jerry at that moment,
-          I <em>was</em> a marine biologist.</p>   
-
-
-          <p>A strange calm came over me. I dont know if it was divine intervention
-          or the kinship of all living things but I tell you Jerry at that moment,
-          I <em>was</em> a marine biologist.</p>
-
-          adfljadflkajsdflkajsdflçaksdjflçaskdjflçadkjf
-          <p>asdfasdfasdf</p>
-        </div>
-        <div className="bg-cyan-900 text-slate-200 w-full pb-8 rounded-sm pl-5 mb-8 mt-8 relative">
-          {/* <p className="absolute -top-8 right-28 text-lg text-green-600 font-bold animate-ping">✓</p> */}
-            {showCopiedText1 && <p className="absolute -top-8 right-24 text-lg text-green-600 font-bold animate-ping">✓</p>}
-          <button>
-            <span onClick={() => handleCopy(code, "board1")} className="absolute -top-8 right-0 border-4 border-cyan-900 text-sm rounded-sm p-1 hover:bg-cyan-900">Copy code</span>
-          </button>
-            <CodeBlock language="python">{code}</CodeBlock>
-        </div>
-        <p>A strange calm came over me. I dont know if it was divine intervention
-          or the kinship of all living things but I tell you Jerry at that moment,
-          I <em>was</em> a marine biologist.</p>
-
-        adfljadflkajsdflkajsdflçaksdjflçaskdjflçadkjf
-        <p>asdfasdfasdf</p>
-        <div className="bg-cyan-900 text-slate-200 w-full pb-8 rounded-sm pl-5 mb-8 mt-8 relative">
-          {showCopiedText2 && <p className="absolute -top-8 right-24 text-lg text-green-600 font-bold animate-ping">✓</p>}
-          <button>
-            <span onClick={() => handleCopy(codetesteee, "board2")} className="absolute -top-8 right-0 border-4 border-cyan-900 text-sm rounded-sm p-1 hover:bg-cyan-900">Copy code</span>
-          </button>
-          <CodeBlock language="python">{codetesteee}</CodeBlock>
-        </div>
+      <h1 className="text-5xl pb-10">Introdução</h1>
+      <div className="flex flex-col indent-6">
+        <p>
+          O objetivo desse projeto é criar um modelo utilizando machine learing que seja capaz de identificar corretamente o perfil de clientes que dão Churn para
+          que, dessa forma, a equipe de marketing possa trabalhar em uma campanha de fidelização, ou fornecer incentivos a permanência desses clientes. O churn
+          é uma métrica que indica os clientes que cancelam o serviço em determinado período de tempo, neste caso os clientes que cancelariam a conta no banco.
+        </p>   
+        <p className="p-2"></p>
+        <p>
+          Dados de clientes de um banco foram disponibilizados em um dataset no Kaggle. O dataset compõe dados de score de crédito, país de origem, idade, sexo biológico,
+          anos de cliente, saldo em conta, número de produtos adquiridos, salário estimado e dados booleanos se possuem cartão de crédito e se é membro ativo. Cada cliente
+          foi rotulado em clientes que deram churn (cancelaram suas contas) (rótulo = 1) e não deram churn (não cancelaram suas contas) (rótulo = 0).
+        </p>
+        <i><a href='//github.com/mcalsing/predict-churn-clients/blob/main/churn.csv' className="hover:text-sky-700" target="_blank">Base de dados</a></i>
+        <h1 className="text-5xl pb-10 pt-10 flex flex-col items-center">Inteligência Artificial</h1>
+        <p>
+          A Inteligência Artificial (IA) tem se destacado como uma das áreas de maior crescimento e visibilidade nos últimos anos. É um campo de estudo amplo que abrange
+          diversas áreas do conhecimento, tanto práticas quanto teóricas, incluindo a ciência da computação, a ciência cognitiva, e Machine Learning.
+        </p>
+        <p className="p-2"></p>
+        <p>
+          O Machine Learning (ML), como uma subárea da inteligência artificial, se concentra no desenvolvimento de algoritmos que são utilizados no computador para realizar
+          tarefas sem a necessidade de programar explicitamente as regras que serão utilizadas. Esses algoritmos baseiam suas decisões a partir de dados com o objetivo de 
+          compreender e identificar o padrão existente nesses dados, para então utilizar esse conhecimento na realização das predições.
+        </p>
+        <h1 className="text-5xl pb-10 pt-10 flex flex-col items-center">Etapas da construção do Modelo</h1>
+        <p>
+          A primeira etapa de um projeto de ML é a extração ou coleta de dados. Os dados são essenciais e podem ser considerados a matéria-prima dos algoritmos.
+          A quantidade e qualidade desses dados têm um impacto muito grande no aprendizado dos modelos. Com poucos dados, o modelo pode não ter informações suficientes
+          para aprender. Com dados de pouca qualidade, o modelo pode não conseguir diferenciar bem o padrão dos dados ou compreender o padrão de forma diferente do que
+          ocorre com os dados do mundo real.
+        </p>
+        <p className="p-2"></p>
+        <p>
+          Além dos dados, há algo que se torna indispensável nos projetos de Machine Learning, que são os algoritmos. Não precisamos criar os algoritmos do zero, eles
+          são disponibilizados de forma gratuita a partir de uma biblioteca da linguagem Python, o Scikit-Learn. Ela oferece não somente uma ampla variedade de algoritmos,
+          mas também ferramentas de pré-processamento dos dados, análise e avaliação de modelos. Para o desenvolvimento do projeto utilizamos o algoritmo Decision Tree 
+          Classifier, um método de aprendizagem supervisionado usado para classificação, onde o conjunto de dados está rotulado, isto é, base de dados com registros
+          históricos contendo a resposta correta. Para então, a partir dessa resposta e das características dos dados, o algoritmo ser capaz de traçar uma regra para se
+          chegar até a resposta que poderá ser usada posteriormente em novos dados, no intuito de fazer uma predição.
+        </p>
+        <p className="p-2"></p>
+        <p>
+          A característica principal da classificação se dá pelo tipo do dado presente na resposta, que precisa ser do tipo categórica. Um dado do tipo categórico é aquele
+          que possui diferentes classes ou categorias. Como exemplos de aplicações de classificação com Machine Learning, temos:
+        </p>
+        <p className="p-1"></p>
+        <ul>
+          <li>⏺ Filtragem de e-mails spams</li>
+          <li>⏺ Diagnósticos médicos</li>
+          <li>⏺ Detecção de fraudes bancárias</li>
+        </ul>
+        <p className="p-2"></p>
       </div>
     </main>
   );
