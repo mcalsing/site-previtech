@@ -2,9 +2,9 @@ export const integrantes = [
   {
     nome: "León Máximus",
     imagem: "/leon2.jpeg",
-    funcao: "HTML | CSS | JavaScript | Java",
+    funcao: "Java | JavaScript | Cibersegurança",
     sobre:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "Ao longo dos anos, explorei diversas áreas em TI, mas foi na programação que encontrei minha verdadeira paixão. Atualmente cursando Ciência da Computação na FURB, busco constantemente aprimorar minhas habilidades. Com inglês avançado (C1) e vivências profissionais anteriores, estou ansioso para contribuir no mundo da tecnologia.",
     github: "//github.com/lnmaximos",
     linkedin: "//linkedin.com/in/leonmaximos",
   },
@@ -13,7 +13,7 @@ export const integrantes = [
     imagem: "/marcelo3.png",
     funcao: "React | Node | JavaScript | Python | Java",
     sobre:
-      "Possuo curso de Desenvolvimento Full-Stack com duração de um ano, totalizando aproximadamente 1500 horas de aula. Durante minha formação, adquiri conhecimentos em JavaScript, React, Node e Python, e mais recentemente, através do programa Entra21, me aprofundei na linguagem Java.",
+      "Estou em processo de transição de carreira, trabalhei com manuteção de computadores e help desk por aproximadamente 5 anos. Possuo curso de Desenvolvimento Full-Stack com duração de um ano, totalizando aproximadamente 1500 horas de aula. Durante minha formação, adquiri conhecimentos em JavaScript, React, Node e Python.",
     github: "//github.com/mcalsing",
     linkedin: "//linkedin.com/in/marcelocalsing",
   },
@@ -40,7 +40,7 @@ export const integrantes = [
     imagem: "/sirlon3.png",
     funcao: "HTML | CSS | JavaScript | Java",
     sobre:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "Sirlon, 23 anos, apaixonado por tecnologia desde a infância. Atualmente, cursa Sistemas da Informação na Uniasselvi e aprofunda conhecimentos em JAVA pelo programa ENTRA21. Busca contribuir para inovações na área de Tecnologia da Informação, ansioso por um futuro promissor.",
     github: "//github.com/sirlonjr",
     linkedin: "//linkedin.com/in/sirlonbrehm",
   },
@@ -49,7 +49,7 @@ export const integrantes = [
     imagem: "/yean2.jpeg",
     funcao: "HTML | CSS | JavaScript | Java",
     sobre:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "Atualmente estou cursando terceiro semestre em bacharelado de Ciência da Computção no Instituto Federal Catarinense de Blumenau, possuo conhecimentos profundos em áreas principais da programação, entre eles programação orientados em Java e C++, algoritmos em python e banco de dados com MySQL.",
     github: "//github.com/yeanjy",
     linkedin: "//linkedin.com/in/yeanjychen",
   },

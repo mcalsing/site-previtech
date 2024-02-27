@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <main className="lg:pl-28 lg:pr-28 pt-12 2xl:pl-64 2xl:pr-64 md:text-xl text-sm text-slate-300 flex flex-col items-center">
+    <main className="lg:pl-28 lg:pr-28 pt-12 2xl:pl-64 2xl:pr-64 md:text-xl text-sm text-slate-300 flex flex-col items-center bg-cyan-950">
       <h1 className="lg:text-5xl md:text-3xl text-2xl pb-10">Introdução</h1>
-      <div className="flex flex-col indent-6">
+      <div className="flex flex-col indent-6 text-justify">
         <p>
           O objetivo desse projeto é criar um modelo utilizando machine learing que seja capaz de identificar corretamente o perfil de clientes que dão Churn para
           que, dessa forma, a equipe de marketing possa trabalhar em uma campanha de fidelização, ou fornecer incentivos a permanência desses clientes. O churn

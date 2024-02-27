@@ -1,20 +1,18 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
 import { integrantes } from "@/utils/mocks";
-import "highlight.js/styles/github.css";
 
 export default function Home() {
   return (
     <main className="w-full h-full flex flex-col items-center text-slate-300 bg-cyan-950">
-      <div className="flex p-5 w-full h-[600px] bg-cyan-900 xl:px-44 justify-between max-md:flex-col">
+      <div className="flex p-5 w-full h-[600px] bg-cyan-800 xl:px-44 justify-between max-md:flex-col">
         <div className="flex flex-col w-1/2 h-full justify-center items-start">
           <span className="font-extrabold text-4xl md:text-6xl">PreviTech</span>
           <span className="text-xl">Utilizamos tecnologias de Machine Learning para desenvolver</span>
           <span className="text-xl">um modelo preditivo capaz prever a evasão de clientes.</span>
         </div>
         <div className="object-cover max-w-[700px]">
-          <Image src="/software.png" alt="software" width={"700"} height={24} className="h-full rounded-xl"></Image>
+          <Image src="/pcnew.png" alt="software" width={"700"} height={24} className="h-full rounded-xl"></Image>
         </div>
       </div>
       <div className="flex">
@@ -31,7 +29,7 @@ export default function Home() {
                 <span className="text-2xl font-bold">{card.nome}</span>
                 <span className="text-sm font-medium">{card.funcao}</span>
               </div>
-              <span>{card.sobre}</span>
+              <span className="text-justify">{card.sobre}</span>
               <div className="flex gap-4 w-full justify-center mt-8">
                 <a href={card.linkedin} target="_blank" className="cursor-pointer">
                   <Image src="/linkedin-branco.png" alt="logolinkedin" width={30} height={24} className="invert"></Image>

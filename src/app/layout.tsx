@@ -19,20 +19,20 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <header>
-          <nav className="flex justify-evenly items-center bg-cyan-950 p-2">
+          <nav className="flex justify-evenly items-center bg-zinc-800 p-2">
             <div className="">
               <Image src="/logo3.png" alt="logo" width={250} height={24}></Image>
             </div>
             <div className="">
               <div className="">
-                <a href="/" className="sm:text-lg md:text-xl lg:text-2xl xl:text-1xl text-slate-300 hover:text-sky-700 mr-4 text-xl">
-                  Home
+                <a href="/" className="sm:text-lg md:text-xl lg:text-2xl xl:text-1xl text-slate-300 mr-4 text-sm">
+                  | Home |
                 </a>
-                <a href="/about" className="sm:text-lg md:text-xl lg:text-2xl xl:text-1xl text-slate-300 hover:text-sky-700 mr-4 text-xl">
-                  Projeto
+                <a href="/about" className="sm:text-lg md:text-xl lg:text-2xl xl:text-1xl text-slate-300 mr-4 text-sm">
+                  Projeto |
                 </a>
-                <a href="//lnmaximos.github.io/previtech-web/" target="_blank" className="sm:text-lg md:text-xl lg:text-2xl xl:text-1xl text-slate-300 hover:text-sky-700 mr-4 text-xl">
-                  Modelo online
+                <a href="//lnmaximos.github.io/previtech-web/" target="_blank" className="sm:text-lg md:text-xl lg:text-2xl xl:text-1xl text-slate-300 mr-4 text-sm">
+                  Modelo online |
                 </a>
               </div>
             </div>
