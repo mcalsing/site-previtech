@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <header>
           <nav className="flex justify-evenly items-center bg-zinc-900 p-2">
-            <div>
+            <div className="w-40 sm:w-64">
               <Image src="/logo3.png" alt="logo" width={250} height={24}></Image>
             </div>
             <div className="">
