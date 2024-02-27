@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <main className="lg:pl-28 lg:pr-28 pt-12 2xl:pl-64 2xl:pr-64 md:text-xl text-sm text-slate-300 flex flex-col items-center bg-cyan-950">
+    <main className="lg:pl-28 lg:pr-28 pt-12 2xl:pl-64 2xl:pr-64 md:text-xl text-sm text-slate-300 flex flex-col items-center bg-gradient-to-b from-zinc-900 to-blue-950">
       <h1 className="lg:text-5xl md:text-3xl text-2xl pb-10">Introdução</h1>
       <div className="flex flex-col indent-6 text-justify">
         <p>

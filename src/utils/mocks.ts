@@ -22,7 +22,7 @@ export const integrantes = [
     imagem: "/dyogo4.png",
     funcao: "HTML | CSS | JavaScript | Java",
     sobre:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "Sou novo no mundo da programação, e agora com a conclusão do curso Java do Entra21, me sinto pronto para ingressar de cabeça no mundo da tecnologia. Falo Inglês fluentemente, além de possuir experiência com Java, HTML, CSS e banco de dados MySQL.",
     github: "//github.com/DyogoMiguel",
     linkedin: "//linkedin.com/in/dyogo-miguel",
   },
