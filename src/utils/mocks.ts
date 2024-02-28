@@ -1,6 +1,6 @@
 export const integrantes = [
   {
-    nome: "León Máximus",
+    nome: "León Máximos",
     imagem: "/leon2.jpeg",
     funcao: "Java | JavaScript | Cibersegurança",
     sobre:
